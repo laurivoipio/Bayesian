@@ -36,9 +36,7 @@ pm_mu = stats.t.pdf((t1 - my) / np.sqrt(s2/n), n-1) / np.sqrt(s2/n)
 
 # compute the exact marginal density for mu for the filtered data
 
-
 # Plotting
-
 # create figure
 fig, axes = plt.subplots(2, 1, sharex=True, figsize=(8, 8))
 
@@ -46,7 +44,7 @@ fig, axes = plt.subplots(2, 1, sharex=True, figsize=(8, 8))
 ax = axes[0]
 ax.hist(data_as_float, np.arange(10, 20, 2))
 # decorate
-ax.set_title('Newcomb\'s measurements')
+ax.set_title(' ')
 ax.set_ylabel('count')
 ax.set_xlabel('$\mu$')
 plt.setp(axes[0].get_xticklabels(), visible=True)

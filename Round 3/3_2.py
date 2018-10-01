@@ -44,7 +44,7 @@ ax2.plot(x, pdf_prior,label="Prior")
 ax2.plot(x, pdf_c, label="control")
 ax2.plot(x, pdf_t, label="treatment")
 # decorate
-ax1.set_title('Newcomb\'s measurements')
+ax1.set_title('Posterior distribution')
 ax1.set_ylabel('count')
 ax1.set_xlabel('odds ratio')
 # ax2.set_xticks(np.arange(0,1.5,.1))
